@@ -95,18 +95,18 @@ p{
     width: 100%;
     min-height: 50px;
     cursor: pointer;
+    font-size: 20px;
 }
 
-.checkbox{
-    margin-left: 10px;
-}
 
-.checkbox-sign{
+.sign{
     display: flex;
+    padding-top: 15px;
 }
 
-.checkbox-sign{
-    padding-top: 15px;
+.checkbox-message{
+    width: 20px;
+    height: 20px;
 }
 
 @media(max-width: 670px){
