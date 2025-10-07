@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #e0f1e7;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+
+label{
+    width: 100%;
+}
+
+.color-mark{
+    color: #61897e;
+    margin-left: 5px;
+}
+
+.form-names{
+    display: flex;
+}

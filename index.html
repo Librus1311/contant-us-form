@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Contact Us</h1>
+        <div class="form-block">
+
+            <!-- НУЖНО ЛИ ИСПОЛЬЗОВАТЬ FOR В LABLE И ID В INPUT В ФОРМАХ? -->
+
+            <form>
+                <div class="form-names">
+                    <label class="form-label">First Name <span class="color-mark">*</span>
+                        <input type="text" class="form-input">
+                    </label>
+                    
+                    <label class="form-label">Last Name <span class="color-mark">*</span>
+                        <input type="text" class="form-input">
+                    </label>
+                    
+                </div>
+                <label class="form-label">Email Address <span class="color-mark">*</span>
+                    <input type="email" class="form-input">
+                </label>
+                <label class="form-label">Query Type <span class="color-mark">*</span>
+                    <div class="query-type-checkbox">
+                        <div class="query-type-checkbox-item">
+                            <input type="checkbox"><p>General Enquiry</p>
+                        </div>
+                        <div class="query-type-checkbox-item">
+                            <input type="checkbox"><p>Support Request</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="form-label">Message <span class="color-mark">*</span>
+                    <input type="text" class="form-input-message">
+                </label>
+                <div class="checkbox-sign">
+                    <input type="checkbox"> <p>I consert to being contancted by the team</p>
+                </div>
+            </form>
+        </div>
+        <button class="submit-btn">Submit</button>
+    </div>
+</body>
+</html>
